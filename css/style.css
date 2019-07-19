@@ -13,7 +13,7 @@ html{
 }
 
 #NavBar{
-    background: #424242;
+    background: #212121;
 }
 
 #section1{
@@ -26,4 +26,18 @@ html{
 
     font-size: 2rem;
     
+}
+
+#section2{
+    background: #424242;
+    font-size: 1.3rem;
+}
+
+#section3{
+    background: #303030;
+    font-size: 1.3rem;
+}
+
+#footer-section{
+    background: #212121;
 }
