@@ -4,6 +4,40 @@
     padding: 0px;
 }
 
+body, html{
+    height: 100%;
+}
+
 html{
-    padding-top: 70px;
+    padding-top: 56px;
+}
+
+#NavBar{
+    background: #212121;
+}
+
+#section1{
+    background-image: url("/img/background-1.jpg");
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 2rem;
+    
+}
+
+#section2{
+    background: #424242;
+    font-size: 1.3rem;
+}
+
+#section3{
+    background: #303030;
+    font-size: 1.3rem;
+}
+
+#footer-section{
+    background: #212121;
 }
