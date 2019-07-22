@@ -16,6 +16,10 @@ body, html{
     font-weight: 700;
 }
 
+#mainNavbar .navbarLink{
+    font-size: 1.2rem;
+}
+
 .navbar-darkmode{
     background: #212121;
 }
@@ -44,6 +48,16 @@ body, html{
 }
 
 #section3{
+    background: #303030;
+    font-size: 1.3rem;
+}
+
+#section4{
+    background: #424242;
+    font-size: 1.3rem;
+}
+
+#section5{
     background: #303030;
     font-size: 1.3rem;
 }
