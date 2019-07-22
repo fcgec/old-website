@@ -14,34 +14,34 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="NavBar">
-            <a class="navbar-brand" href="#">FC GEC LOGO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Events <i class="far fa-calendar-alt"></i></a>
-                <a class="nav-item nav-link" href="#">About <i class="fas fa-info-circle"></i></a>
-            </div>
-            </div>
-        </nav>
-    </div>
 
     <div class="container-fluid" id="section1">
-        <div class="row justify-content-center align-items-center h-100">
-            <div class="col">
-                <p class="text-white text-center font-weight-bold">Foss Community GEC</p>
-            </div>
-        </div>
+
+      <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNavbar">
+          <a class="navbar-brand" href="#">FC GEC LOGO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+              <a class="nav-item nav-link text-white" href="#">EVENTS <i class="far fa-calendar-alt"></i></a>
+              <a class="nav-item nav-link text-white" href="#">ABOUT <i class="fas fa-info-circle"></i></a>
+          </div>
+          </div>
+      </nav>
+
+      <div class="row justify-content-center align-items-center h-100">
+          <div class="col">
+              <p class="text-white text-center font-weight-bold" id="intro">FOSS COMMUNITY GEC</p>
+          </div>
+      </div>
     </div>
 
-    <div class="container-fluid text-white px-5" id="section2">
-        <div class="row pt-4 pb-2">
-            <h2 class="text-primary">Who are we?</h2>
+    <div class="container-fluid text-white px-5 py-5" id="section2">
+        <div class="row pt-4 pb-2 justify-content-center">
+            <h2 class="text-primary text-center">WHAT IS FOSS COMMUNITY GEC?</h2>
         </div>
-        <div class="row">
+        <div class="row py-5">
             <p>Foss Community GEC is ... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum veritatis porro autem excepturi accusantium obcaecati aliquid corrupti harum ab! Reprehenderit.</p>
         </div>
         <div class="row pt-4 pb-2">
@@ -119,6 +119,29 @@
           <a href="https://fcgec.github.io"> fcgec.github.io</a>
         </div>      
       </footer>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+      <script>
+          // NAVBAR SCRIPT
+          $(function() {
+            $(document).scroll(function() {
+          var $navbar = $('#mainNavbar');
+          $navbar.toggleClass('scrolled', $(this).scrollTop() > $navbar.height()); // css/transition effect
+          $navbar.toggleClass('navbar-darkmode', $(this).scrollTop() > $navbar.height()); //Background
+          // var $navbar_links = $('.navbarLinks');
+          // $navbar_links.toggleClass('navbar_link', $(this).scrollTop() > $nav.height()); //hover effect
+          // $('#toggleButton').click(function() {
+          //   var $clickButton = $('#mainNavbar ');
+          //   $clickButton.toggleClass('bg-dark', $(this).scrollTop() < $nav.height()); //toggle dark nav when not scrolling past nav heigh
+          // });
+        });
+      });
+      </script>
+
+      
 
     </body>
 </html>
