@@ -8,34 +8,66 @@ body, html{
     height: 100%;
 }
 
-html{
+/* html{
     padding-top: 56px;
+} */
+
+#mainNavbar{
+    font-weight: 700;
 }
 
-#NavBar{
+#mainNavbar .navbarLink{
+    font-size: 1.2rem;
+}
+
+.navbar-darkmode{
     background: #212121;
 }
 
+#mainNavbar.scrolled {
+	transition: background 922ms;
+} /* NAV - transition*/
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
 #section1{
-    background-image: url("/img/background-1.jpg");
+    background-image: url("/img/background-2.jpg");
     height: 100%;
     
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-    font-size: 2rem;
-    
+#section1 #intro{
+    font-size: 1.8rem;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+             0px 8px 13px rgba(0,0,0,0.5),
+             0px 18px 23px rgba(0,0,0,0.2);
 }
 
 #section2{
     background: #424242;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 #section3{
     background: #303030;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+}
+
+#section4{
+    background: #424242;
+    font-size: 1.1rem;
+}
+
+#section5{
+    background: #303030;
+    font-size: 1.1rem;
 }
 
 #footer-section{
