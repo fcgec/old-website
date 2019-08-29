@@ -10,6 +10,11 @@ html {
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   color: #fff;
+  background: #212121;
+}
+
+#events-overview {
+  padding-top: 70px;
 }
 
 #mainNavbar {
@@ -118,6 +123,55 @@ hr.style-two {
   background: rgba(0, 0, 0, 0.1);
 }
 
+/* footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+} */
+
 footer li a {
+  font-weight: 600;
+}
+
+.card {
+  background: #303030;
+  align-items: center;
+  text-align: center;
+}
+
+.card h5 {
+  font-weight: 600;
+}
+
+/* .card p {
+  font-weight: 500;
+} */
+
+.card button {
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #0069ff;
+}
+
+.card:hover {
+  border: #424242 solid 1px;
+}
+
+.card button:hover {
+  color: #fff;
+  transition: color ease-out 0.4s;
+}
+
+.modal-content {
+  background: #303030;
+}
+
+.modal-content h5 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.modal-content button {
   font-weight: 600;
 }
