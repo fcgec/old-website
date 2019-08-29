@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Events by The Foss Community GEC." />
     <meta
-      name="description"
-      content="The Official Website of The Foss Community GEC."
+      name="keywords"
+      content="Foss Community GEC Events,FC GEC Events,Foss Goa Events,Goa,Events"
     />
-    <meta name="keywords" content="Foss Community GEC,FC GEC,Foss Goa,Goa" />
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -109,6 +109,7 @@
 
   <body>
     <div class="container-fluid">
+      <!-- Navbar Section -->
       <nav
         class="navbar navbar-dark navbar-expand-lg fixed-top py-1"
         id="mainNavbar"
@@ -147,6 +148,166 @@
       </nav>
     </div>
 
+    <!-- Content Section -->
+    <div class="container pb-5" id="events-overview">
+      <div class="row">
+        <!-- Inaugration Card -->
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="img/events/inaugration/inaugration-main.jpg"
+              class="card-img-top"
+              alt="Inaugration"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Inaugration</h5>
+              <p class="card-text">
+                Date: 11th April, 2019.
+              </p>
+              <button
+                type="button"
+                class="btn btn"
+                data-toggle="modal"
+                data-target="#inaugrationModal"
+              >
+                View Report
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Installfest #1 Card -->
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="img/events/installfest-1/installfest-1-main.jpg"
+              class="card-img-top"
+              alt="Linux Installfest #1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Linux Installfest #1</h5>
+              <p class="card-text">
+                Date: 2nd August, 2019.
+              </p>
+              <button
+                type="button"
+                class="btn"
+                data-toggle="modal"
+                data-target="#installfest-1-Modal"
+              >
+                View Report
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Placeholder Card Area -->
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+
+    <!-- Modal Section -->
+
+    <!-- Modal for Inaugration Card-->
+    <div
+      class="modal fade"
+      id="inaugrationModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="inaugrationModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="inaugrationModalLabel">
+              FOSS Community GEC Inaugration
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The event began at 2pm in the Computer Department CC Lab. The
+              event was attended by over 60 people. It featured two veterans of
+              FSUG Goa. It began with Mr. Minto Joseph talking about his work
+              and Open Source Software. Next, Mr. Frederick Noronha explained
+              about his journey with Linux and also the FOSS Community in Goa.
+              The event was concluded by 4PM.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">View Images</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Linux Installfest #1 Card-->
+    <div
+      class="modal fade"
+      id="installfest-1-Modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="installfest-1-ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="installfest-1-ModalLabel">
+              Linux Installfest #1
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The event began at 2:30pm in the IT Department auditorium and was
+              led by Julius Alphonso. The event was attended by 24 people and 11
+              volunteers. It began with instructions on how to make a LiveUSB
+              using rufus, then the attendants were shown how to shrink their
+              windows partition size to make space for a linux partition.
+              Following this the attendants were shown how to boot into the
+              LiveUSB and install linux on their systems. The participants were
+              given ‘Tux’ stickers after successfully booting into Linux. A
+              short demonstration on basic terminal commands was held. The event
+              was concluded by 4:45PM. The event was conducted smoothly and any
+              difficulties were quickly sorted out thanks to the volunteers.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">View Images</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
     <footer class="page-footer font-small text-white pt-4" id="footer-section">
       <!-- Footer Links -->
       <div class="container-fluid text-center text-md-left">
