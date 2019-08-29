@@ -18,6 +18,7 @@ html {
 
 #mainNavbar .navbarLink {
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .navbar-darkmode {
@@ -95,9 +96,10 @@ hr.style-two {
 #our-goal img {
   max-height: 350px;
   border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 }
 
-#section5 {
+#events {
   background: #303030;
   font-size: 1.1rem;
 }
@@ -114,4 +116,8 @@ hr.style-two {
 .carousel-item p {
   font-weight: 600;
   background: rgba(0, 0, 0, 0.1);
+}
+
+footer li a {
+  font-weight: 600;
 }
