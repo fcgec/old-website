@@ -1,75 +1,117 @@
 /* reset condition */
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body, html{
-    height: 100%;
+body,
+html {
+  height: 100%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: #fff;
 }
 
-/* html{
-    padding-top: 56px;
-} */
-
-#mainNavbar{
-    font-weight: 700;
+#mainNavbar {
+  font-weight: 700;
 }
 
-#mainNavbar .navbarLink{
-    font-size: 1.2rem;
+#mainNavbar .navbarLink {
+  font-size: 1.2rem;
 }
 
-.navbar-darkmode{
-    background: #212121;
+.navbar-darkmode {
+  background: #212121;
 }
 
 #mainNavbar.scrolled {
-	transition: background 922ms;
+  transition: background 922ms;
 } /* NAV - transition*/
 
+h2 {
+  font-weight: 700;
+}
+
 hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
 }
 
-#section1{
-    background-image: url("/img/background-2.jpg");
-    height: 100%;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#section1 {
+  background-image: url("/img/background-2.jpg");
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#section1 #intro{
-    font-size: 1.8rem;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
-             0px 8px 13px rgba(0,0,0,0.5),
-             0px 18px 23px rgba(0,0,0,0.2);
+#section1 #intro {
+  font-size: 3rem;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.8), 0px 8px 13px rgba(0, 0, 0, 0.5),
+    0px 18px 23px rgba(0, 0, 0, 0.2);
 }
 
-#section2{
-    background: #424242;
-    font-size: 1.1rem;
+#what-is-fcgec {
+  background: #212121;
+  font-size: 1.1rem;
 }
 
-#section3{
-    background: #303030;
-    font-size: 1.1rem;
+#what-is-fcgec h2 {
+  border-bottom: #0069ff solid 3px;
 }
 
-#section4{
-    background: #424242;
-    font-size: 1.1rem;
+#what-is-fcgec img {
+  margin: 0 auto;
 }
 
-#section5{
-    background: #303030;
-    font-size: 1.1rem;
+#what-we-do {
+  background-color: #eee;
+  color: #000;
 }
 
-#footer-section{
-    background: #212121;
+#what-we-do h2 {
+  border-bottom: #0069ff solid 3px;
+  text-transform: uppercase;
+}
+
+#what-we-do h3 {
+  /* text-transform: uppercase; */
+  font-weight: 600;
+  font-style: italic;
+}
+
+#our-goal {
+  background: #424242;
+  font-size: 1.1rem;
+}
+
+#our-goal img {
+  max-height: 350px;
+  border-radius: 2%;
+}
+
+#section5 {
+  background: #303030;
+  font-size: 1.1rem;
+}
+
+#footer-section {
+  background: #212121;
+}
+
+.carousel-item h5 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.carousel-item p {
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.1);
 }
