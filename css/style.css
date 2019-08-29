@@ -23,7 +23,13 @@ html {
 
 #mainNavbar .navbarLink {
   font-size: 1rem;
+  color: #fff;
   text-transform: uppercase;
+}
+
+#mainNavbar a:hover {
+  color: #0069ff;
+  transition: color ease-out 0.4s;
 }
 
 .navbar-darkmode {
@@ -132,6 +138,11 @@ hr.style-two {
 
 footer li a {
   font-weight: 600;
+}
+
+footer a:hover {
+  color: #fff;
+  transition: color ease-out 0.4s;
 }
 
 .card {
